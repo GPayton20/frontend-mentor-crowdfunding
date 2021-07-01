@@ -1,15 +1,16 @@
 @import './setup';
 @import './variables';
 @import './typography';
+@import './buttons';
 
 @import './main';
 @import './header';
 @import './card';
 
-.wrapper {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 img {
@@ -19,4 +20,10 @@ img {
 
 .hidden {
   display: none;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }

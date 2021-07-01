@@ -1,5 +1,25 @@
 .card {
-  background-color: white;
+  background-color: $white;
+  border: 1px solid $dark-gray;
   border-radius: 20px;
+  padding: 4rem 2rem;
   width: 100%;
+}
+
+.hero-card {
+  position: relative;
+  text-align: center;
+  .logo-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
