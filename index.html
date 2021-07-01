@@ -37,14 +37,17 @@
     <div class="wrapper">
       <nav>
         <div class="logo">Crowdfund</div>
-        <button class="hamburger-button" aria-label="Click to open dropdown menu">
-          <img src="./images/icon-hamburger.svg" alt="Hamburger menu icon">
+        <button class="hamburger-button" aria-label="Click to open and close dropdown menu">
+          <img class="menu-open hidden" src="./images/icon-hamburger.svg" alt="Hamburger menu icon">
+          <img class="menu-close" src="./images/icon-close-menu.svg" alt="Close menu icon">
         </button>
-        <ul class="nav-menu hidden">
-          <li><a href="">About</a></li>
-          <li><a href="">Discover</a></li>
-          <li><a href="">Get started</a></li>
-        </ul>
+        <div class="card">
+          <ul class="nav-menu">
+            <li><a href="">About</a></li>
+            <li><a href="">Discover</a></li>
+            <li><a href="">Get started</a></li>
+          </ul>
+        </div>
       </nav>
     </div>
   </header>

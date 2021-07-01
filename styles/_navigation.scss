@@ -1,0 +1,30 @@
+header nav {
+  position: relative;
+  .card {
+    padding: 0;
+    position: absolute;
+    top: 100%;
+  }
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  li {
+    &:not(:first-of-type) {
+      border-top: 1px solid $dark-gray;
+    }
+    a {
+      display: inline-block;
+      color: $black;
+      font-size: 2rem;
+      font-weight: 500;
+      text-decoration: none;
+      text-transform: capitalize;
+      padding: 25px;
+    }
+  }
+}
