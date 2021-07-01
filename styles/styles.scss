@@ -1,5 +1,22 @@
 @import './setup';
-@import './typography';
 @import './variables';
+@import './typography';
 
+@import './main';
 @import './header';
+@import './card';
+
+.wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

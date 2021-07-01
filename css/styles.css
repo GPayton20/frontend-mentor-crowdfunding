@@ -236,6 +236,7 @@ html {
 }
 
 html {
+  font-family: "Commissioner", sans-serif;
   font-size: 62.5%;
 }
 
@@ -243,10 +244,70 @@ body {
   font-size: 1.6rem;
 }
 
+.logo,
+nav a {
+  color: white;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+main {
+  background-color: #ededed;
+}
+
+main h1 {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-image: url(../images/image-hero-mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 80vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+}
+
+.hamburger-button {
+  background: transparent;
+  border: none;
+  width: 30px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.hidden {
+  display: none;
 }
 /*# sourceMappingURL=styles.css.map */

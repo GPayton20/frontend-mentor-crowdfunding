@@ -1,7 +1,19 @@
 html {
+  font-family: $commissioner;
   font-size: 62.5%;
 }
 
 body {
   font-size: 1.6rem;
+}
+
+.logo,
+nav a {
+  color: white;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: lowercase;
 }

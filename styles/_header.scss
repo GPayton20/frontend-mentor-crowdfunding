@@ -4,4 +4,18 @@ header {
   background-repeat: no-repeat;
 
   min-height: 80vh;
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 30px;
+  }
+}
+
+.hamburger-button {
+  background: transparent;
+  border: none;
+  width: 30px;
 }
