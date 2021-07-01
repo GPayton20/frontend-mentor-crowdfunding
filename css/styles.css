@@ -257,10 +257,16 @@ h4 {
   font-weight: 500;
 }
 
-h2,
-h3,
-h4 {
+h2 {
   margin: 0 0 16px;
+}
+
+h3 {
+  margin: 0 0 10px;
+}
+
+h4 {
+  margin: 0 0 20px;
 }
 
 p {
@@ -292,6 +298,11 @@ nav a {
   color: white;
   font-weight: 700;
   padding: 1.2em 2em;
+}
+
+.depleted .button {
+  background-color: #7a7a7a;
+  pointer-events: none;
 }
 
 .bookmark-button {
@@ -333,7 +344,8 @@ header nav {
   background-color: #fafafa;
   border: 1px solid #7a7a7a;
   border-radius: 10px;
-  padding: 4rem 2rem;
+  margin-top: 30px;
+  padding: 4rem 2rem 2rem;
   width: 100%;
 }
 
@@ -367,19 +379,28 @@ header nav {
   padding-right: 10px;
 }
 
-.hero-card {
+.card.depleted {
+  opacity: 0.5;
+}
+
+.card.hero-card {
   position: relative;
   bottom: 60px;
+  margin: 0;
   text-align: center;
 }
 
-.hero-card .logo-container {
+.card.hero-card .logo-container {
   position: absolute;
   top: 0;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 60px;
+}
+
+section.status {
+  margin-top: -60px;
 }
 
 .status ul li {
@@ -389,7 +410,7 @@ header nav {
 }
 
 .status ul li::after {
-  content: '';
+  content: "";
   background-color: #7a7a7a;
   height: 1px;
   width: 30%;

@@ -7,6 +7,11 @@
   padding: 1.2em 2em;
 }
 
+.depleted .button {
+  background-color: $dark-gray;
+  pointer-events: none;
+}
+
 .bookmark-button {
   background-color: transparent;
   border: none;
