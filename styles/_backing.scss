@@ -1,0 +1,17 @@
+section.backing {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 200;
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h2 {
+      margin: 0;
+    }
+  }
+}
+
